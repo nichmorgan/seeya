@@ -1,7 +1,7 @@
 use leaflet::{LatLng, Map, TileLayer};
 use yew::{html, Component, Html, Properties};
 
-const ZOOM: f64 = 11.0;
+const ZOOM: f64 = 18.0;
 
 pub enum Msg {}
 
