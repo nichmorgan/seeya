@@ -1,7 +1,10 @@
-use crate::map_component::{MapComponent, Point};
+use crate::geo::Point;
+use crate::map_component::MapComponent;
 use yew::{html, Component, Context, Html};
 
+mod geo;
 mod map_component;
+mod osrm;
 
 pub struct Model;
 
